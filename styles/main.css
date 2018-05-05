@@ -25,6 +25,31 @@ body {
   background-blend-mode: soft-light;
 }
 
+article {
+  display: block;
+  float: left;
+  padding: 20px;
+
+}
+
+.side-links {
+  display: block;
+  margin-bottom: 20px;
+  color: #00ffdd;
+  font-family: slim joe;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  transition: border-bottom 1000ms, color 1000ms;
+}
+
+.side-links:hover {
+  color: #e1b2ff;
+  text-decoration: none;
+  border-bottom: none;
+  transition: border-bottom 1000ms, color 1000ms;
+}
+
 .heading {
   width: 600px;
   height: 300px;
@@ -77,6 +102,7 @@ body {
 }
 
 footer {
+  width: 100%;
   position: fixed;
   bottom: 0;
 }
@@ -84,4 +110,13 @@ footer {
 #github {
   float: right;
   bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#instagram {
+  float: right;
+  bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
