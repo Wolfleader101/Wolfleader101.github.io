@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: big john;
+  src: url('../fonts/big_john.otf');
+}
+
+@font-face {
+  font-family: slim joe;
+  src: url('../fonts/slim_joe.otf');
+}
+
 html, body {
   height: 100%;
 }
@@ -44,6 +54,7 @@ body {
 }
 
 .bigbutton {
+
   margin: 50px auto;
   display: block;
   width: 180px;
@@ -54,12 +65,22 @@ body {
   font-family sans-serif;
   font-weight: bold;
   border-radius: 5px;
-  transition: background-color 1000ms, color 1000ms;
+  transition: background-color 1000ms, color 1000ms, font-size 1000ms;
 }
 
 .bigbutton:hover {
   background-color: rgba(255, 255, 255, 1);
   color: #020c1c;
   cursor: pointer;
-  transition: background-color 1000ms, color 1000ms;
+  font-size: 15px;
+  transition: background-color 1000ms, color 1000ms, font-size 1000ms;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+#github {
+  float: right;
 }
