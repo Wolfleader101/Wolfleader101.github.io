@@ -59,6 +59,8 @@ article {
   bottom: 0px;
   left: 0px;
   right: 0px;
+  text-decoration: none;
+  
 }
 
 .mainTitle {
@@ -91,6 +93,8 @@ article {
   font-weight: bold;
   border-radius: 5px;
   transition: background-color 1000ms, color 1000ms, font-size 1000ms;
+  text-decoration: none;
+
 }
 
 .bigbutton:hover {
