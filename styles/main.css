@@ -20,9 +20,9 @@ html, body {
 body {
   background-color: #79c4b9;
   background-image: url(../images/background.png);
-  background-position: center;
   background-size: cover;
   background-blend-mode: soft-light;
+  background-repeat: no-repeat;
 }
 
 article {
