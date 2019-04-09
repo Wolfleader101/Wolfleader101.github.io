@@ -112,16 +112,22 @@ footer {
   bottom: 0;
 }
 
-#github {
+#icon-nonja {
   float: right;
   bottom: 0;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-#instagram {
-  float: right;
+#icon-wolf {
+  float: left;
   bottom: 0;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
 }
