@@ -15,6 +15,7 @@
 
 html, body {
   background-color: red;
+  overflow: hidden;
 }
 
 article {
@@ -127,7 +128,6 @@ footer {
 }
 
 #icon-nonja {
-  float: right;
   bottom: 0;
   margin-left: 10px;
   margin-right: 10px;
@@ -137,7 +137,6 @@ footer {
 }
 
 #icon-wolf {
-  float: left;
   bottom: 0;
   margin-left: 10px;
   margin-right: 10px;
