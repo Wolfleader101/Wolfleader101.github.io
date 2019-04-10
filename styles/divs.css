@@ -1,0 +1,31 @@
+.AboutUs {
+  display: block;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  background-color: #80acf2;
+}
+
+.Projects {
+  display: block;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  background-color: green;
+}
+
+.Blogs {
+  display: block;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  background-color: red;
+}
+
+.ContactUs {
+  display: block;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  background-color: blue;
+}
