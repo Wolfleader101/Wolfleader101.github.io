@@ -1,3 +1,27 @@
+
+.Landing {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: #79c4b9;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-decoration: none;
+
+}
+
 .AboutUs {
   display: block;
   width: 100%;
