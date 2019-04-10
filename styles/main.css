@@ -58,7 +58,6 @@ article {
 }
 
 .heading {
-
   width: 600px;
   height: 300px;
   margin: auto;
@@ -74,7 +73,6 @@ article {
 .AboutUs {
   display: block;
   position: relative;
-  height: 50%;
   width: 100%;
   background-color: white;
   text-align: center;
