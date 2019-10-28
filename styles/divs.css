@@ -25,15 +25,21 @@
 
 .AboutUs {
   display: block;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   text-align: center;
   background-color: #80acf2;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
 }
 
 .Projects {
   display: block;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   text-align: center;
   background-color: green;
@@ -41,16 +47,18 @@
 
 .Blogs {
   display: block;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   text-align: center;
-  background-color: red;
+  background-color: rgb(201, 160, 28);
 }
 
 .ContactUs {
   display: block;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   text-align: center;
-  background-color: blue;
+  background-color: #ff9ad5;
 }
