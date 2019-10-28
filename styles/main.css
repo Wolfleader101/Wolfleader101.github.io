@@ -98,13 +98,12 @@ footer {
   bottom: 0;
 }
 
-.icon-nonja {
-  bottom: 0;
+.icon-right {
   margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 20px;
   text-decoration: none;
   color: black;
+  font-weight: bolder;
 }
 
 .icon-wolf {
