@@ -3,7 +3,7 @@
   background-color: #6E9CAC;
   background-image: url(../images/background.png);
   background-size: cover;
-  background-blend-mode: soft-light;
+  background-blend-mode: multiply;
 }
 
 .AboutUs {
