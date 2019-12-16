@@ -11,7 +11,7 @@ new fullpage('#fullpage', {
     setInterval(function () {
       fullpage_api.moveSlideRight();
     }, 5000);
-  }
+  },
 });
 
 //Read more button click
