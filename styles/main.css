@@ -19,11 +19,11 @@ html, body {
   overflow-y: visible;
 }
 
-article {
-  display: block;
-  float: left;
-  padding: 20px;
-
+#fp-nav ul li a span {
+  background: white !important;
+}
+.fp-slidesNav ul li a span {
+  background: white !important;
 }
 
 .side-links {
