@@ -1,36 +1,37 @@
 
 .Landing {
-  background-color: #79c4b9;
+  background-color: #6E9CAC;
   background-image: url(../images/background.png);
   background-size: cover;
   background-blend-mode: soft-light;
-  background-repeat: no-repeat;
 }
 
 .AboutUs {
-  background-color: white;
   text-align: center;
-  background-color: #80acf2;
-  background-image: url(../images/background.png);
+  color: white;
+  background-color: #313357;
+  background-image: url(../images/coding_bg.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
-  background-repeat: no-repeat;
+
 }
 
 .Projects {
-  background-color: white;
   text-align: center;
-  background-color: green;
+  background-color: #9C6166;
+}
+
+.Products {
+  text-align: center;
+  background-color: #743C55;
 }
 
 .Blogs {
-  background-color: white;
   text-align: center;
   background-color: rgb(201, 160, 28);
 }
 
 .ContactUs {
-  background-color: white;
   text-align: center;
-  background-color: #ff9ad5;
+  background-color: #B47553;
 }

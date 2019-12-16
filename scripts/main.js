@@ -5,8 +5,8 @@ new fullpage('#fullpage', {
   scrollHorizontally: true,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['page1', 'page2', 'page3', 'page4'],
-  navigationTooltips: ['Wolf Studios', 'About Us', 'Projects', 'Blogs', 'Contact Us'],
+  anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+  navigationTooltips: ['Wolf Studios', 'About Us', 'Projects', 'Products', 'Blogs', 'Contact Us'],
   afterRender: () => {
     setInterval(function () {
       fullpage_api.moveSlideRight();
