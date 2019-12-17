@@ -31,26 +31,6 @@ html, body {
   background: white !important;
 }
 
-.side-links {
-  display: block;
-  margin-bottom: 20px;
-  color: #00ffdd;
-  font-family: slim joe;
-  font-weight: bold;
-  text-decoration: none;
-  border-bottom: 1px dotted;
-  -webkit-transition: border-bottom 1000ms, color 1000ms;
-  transition: border-bottom 1000ms, color 1000ms;
-}
-
-.side-links:hover {
-  color: #e1b2ff;
-  text-decoration: none;
-  border-bottom: none;
-  -webkit-transition: border-bottom 1000ms, color 1000ms;
-  transition: border-bottom 1000ms, color 1000ms;
-}
-
 .mainTitle {
   display: block;
   text-align: center;

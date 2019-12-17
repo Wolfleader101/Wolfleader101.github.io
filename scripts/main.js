@@ -7,11 +7,11 @@ new fullpage('#fullpage', {
   controlArrows: false,
   anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
   navigationTooltips: ['Wolf Studios', 'About Us', 'Projects', 'Products', 'Blogs', 'Contact Us'],
-  afterRender: () => {
-    setInterval(function () {
-      fullpage_api.moveSlideRight();
-    }, 5000);
-  }
+  // afterRender: () => {
+  //   setInterval(function () {
+  //     fullpage_api.moveSlideRight();
+  //   }, 5000);
+  // }
 });
 
 //Read more button click
