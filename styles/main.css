@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: big john;
-  src: url('../fonts/big_john.otf');
+  src: url("../fonts/big_john.otf");
 }
 
 @font-face {
   font-family: slim joe;
-  src: url('../fonts/slim_joe.otf');
+  src: url("../fonts/slim_joe.otf");
 }
 
 html, body {
@@ -26,6 +26,7 @@ html, body {
 #fp-nav ul li a span {
   background: white !important;
 }
+
 .fp-slidesNav ul li a span {
   background: white !important;
 }
@@ -38,6 +39,7 @@ html, body {
   font-weight: bold;
   text-decoration: none;
   border-bottom: 1px dotted;
+  -webkit-transition: border-bottom 1000ms, color 1000ms;
   transition: border-bottom 1000ms, color 1000ms;
 }
 
@@ -45,6 +47,7 @@ html, body {
   color: #e1b2ff;
   text-decoration: none;
   border-bottom: none;
+  -webkit-transition: border-bottom 1000ms, color 1000ms;
   transition: border-bottom 1000ms, color 1000ms;
 }
 
@@ -76,19 +79,19 @@ html, body {
   font-family: sans-serif;
   font-weight: bold;
   border-radius: 5px;
+  -webkit-transition: background-color 1000ms, color 1000ms, font-size 1000ms;
   transition: background-color 1000ms, color 1000ms, font-size 1000ms;
   text-decoration: none;
-
 }
 
 .bigbutton:hover {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: white;
   color: #020c1c;
   cursor: pointer;
   font-size: 15px;
+  -webkit-transition: background-color 1000ms, color 1000ms, font-size 1000ms;
   transition: background-color 1000ms, color 1000ms, font-size 1000ms;
 }
-
 
 section {
   position: relative;
@@ -120,13 +123,21 @@ section {
 }
 
 #icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .empty_space {
-  flex-grow: 2;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 7px;
@@ -134,7 +145,8 @@ section {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 10px #849b9b;
+  -webkit-box-shadow: inset 0 0 10px #849b9b;
+          box-shadow: inset 0 0 10px #849b9b;
   border-radius: 30px;
 }
 
@@ -150,12 +162,19 @@ section {
 }
 
 .discord {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+
 .link_names {
   font-weight: bolder;
   margin-bottom: 12px;
   margin-left: -87%;
   text-align: center;
 }
+/*# sourceMappingURL=main.css.map */
