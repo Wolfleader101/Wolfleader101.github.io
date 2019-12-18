@@ -37,6 +37,8 @@
   font-family: 'Roboto';
   font-size: 1.5em;
   letter-spacing: .1em;
+  margin-top: 15%;
+  text-align: center;
 }
 
 .project1:hover {
