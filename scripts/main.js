@@ -10,7 +10,7 @@ new fullpage('#fullpage', {
   afterRender: () => {
     setInterval(function () {
       fullpage_api.moveSlideRight();
-    }, 7500);
+    }, 6000);
   }
 });
 
