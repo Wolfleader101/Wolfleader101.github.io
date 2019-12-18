@@ -36,6 +36,7 @@
 .project1 .overlay p {
   font-family: 'Roboto';
   font-size: 1.5em;
+  letter-spacing: .1em;
 }
 
 .project1:hover {
