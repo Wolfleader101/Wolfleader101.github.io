@@ -18,3 +18,9 @@ new fullpage('#fullpage', {
 $(document).on('click', '#ReadMore', () => {
   fullpage_api.moveTo('page2');
 });
+
+
+// DrawMe
+$(".overlay").click( () => {
+  window.open('https://drawme.wolfstudios.dev/')
+})
