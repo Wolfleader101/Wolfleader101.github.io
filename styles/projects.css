@@ -7,11 +7,33 @@
 }
 
 .project1 {
+  border-radius: 5px;
   position: absolute;
+  overflow: hidden;
   left: 4%;
   top: 5%;
   -webkit-box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.project1 img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 1367px;
+  height: 680px;
+  border-radius: 5px;
+}
+
+.project1 img .overlay {
+  border-radius: 5px;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  border-radius: 3px;
 }
 
 .project1 .overlay {
@@ -52,21 +74,9 @@
 }
 
 .project1:hover img {
-  -webkit-filter: blur(1.5px);
-          filter: blur(1.5px);
-}
-
-.project1 img {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  width: 1367px;
-  height: 680px;
-}
-
-.project1 img .overlay {
-  -webkit-transition: .3s all;
-  transition: .3s all;
-  border-radius: 3px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: blur(1.2px);
+          filter: blur(1.2px);
 }
 /*# sourceMappingURL=projects.css.map */
