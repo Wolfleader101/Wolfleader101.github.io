@@ -64,6 +64,10 @@ html, body {
   text-decoration: none;
 }
 
+#ContactBTN {
+  width: 250px;
+}
+
 .bigbutton:hover {
   background-color: white;
   color: #020c1c;

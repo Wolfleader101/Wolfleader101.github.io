@@ -5,8 +5,8 @@ new fullpage('#fullpage', {
   scrollHorizontally: true,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
-  navigationTooltips: ['Wolf Studios', 'About Us', 'Projects', 'Products', 'Blogs', 'Contact Us'],
+  anchors: ['page1', 'page2', 'page3', 'page4'],
+  navigationTooltips: ['Wolf Studios', 'About Us', 'Projects', 'Contact Us'],
   // afterRender: () => {
   //   setInterval(function () {
   //     fullpage_api.moveSlideRight();
@@ -19,6 +19,9 @@ $(document).on('click', '#ReadMore', () => {
   fullpage_api.moveTo('page2');
 });
 
+$(document).on('click', '#ContactBTN', () => {
+  fullpage_api.moveTo('page4');
+})
 
 // DrawMe
 $(".overlay").click( () => {
