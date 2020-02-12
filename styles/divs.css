@@ -22,8 +22,12 @@
   background-blend-mode: soft-light;
 }
 .Projects {
+  color: white;
   text-align: center;
-  background-color: #9C6166;
+  background-color: rgb(44, 53, 78);
+  background-image: url(../images/projects_bg.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
 
 .Products {

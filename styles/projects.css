@@ -1,9 +1,10 @@
 .Projects h1 {
+  padding-top: 5%;
   font-family: 'Montserrat';
   font-size: 5em;
   font-weight: 650;
   text-transform: uppercase;
-  color: #33272A;
+  color: rgb(255, 255, 255);
 }
 
 .project1 {
