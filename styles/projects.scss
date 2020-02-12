@@ -15,7 +15,7 @@ $border: 5px;
 
 .project1 {
     border-radius: $border;
-    position: absolute;
+    //position: absolute;
     overflow: hidden;
     left: 4%;
     top: 5%;
@@ -61,6 +61,7 @@ $border: 5px;
           letter-spacing: .1em;
           margin-top: 15%;
           text-align: center;
+          
         }
 
     }
