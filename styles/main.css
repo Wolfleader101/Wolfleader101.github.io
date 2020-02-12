@@ -72,9 +72,8 @@ html, body {
   background-color: white;
   color: #020c1c;
   cursor: pointer;
-  font-size: 15px;
-  -webkit-transition: background-color 1000ms, color 1000ms, font-size 1000ms;
-  transition: background-color 1000ms, color 1000ms, font-size 1000ms;
+  -webkit-transition: background-color 500ms, color 500ms, font-size 500ms;
+  transition: background-color 500ms, color 500ms, font-size 500ms;
   text-decoration: none;
 }
 
