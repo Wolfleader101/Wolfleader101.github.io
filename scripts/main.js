@@ -16,11 +16,11 @@ new fullpage('#fullpage', {
 
 //Read more button click
 $(document).on('click', '#ReadMore', () => {
-  fullpage_api.moveTo('page2');
+  fullpage_api.moveTo('AboutUs');
 });
 
 $(document).on('click', '#ContactBTN', () => {
-  fullpage_api.moveTo('page4');
+  fullpage_api.moveTo('ContactUs');
 })
 
 // DrawMe
