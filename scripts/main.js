@@ -5,7 +5,7 @@ new fullpage('#fullpage', {
   scrollHorizontally: true,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['page1', 'page2', 'page3', 'page4'],
+  anchors: ['Home', 'AboutUs', 'Projects', 'ContactUs'],
   navigationTooltips: ['Wolf Studios', 'About Us', 'Projects', 'Contact Us'],
   // afterRender: () => {
   //   setInterval(function () {
