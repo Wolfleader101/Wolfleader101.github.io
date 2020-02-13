@@ -9,22 +9,26 @@
 .AboutUs {
   text-align: center;
   color: white;
-  background-color: #313357;
+  background-color: #a1a3af;
   background-image: url(../images/coding_bg.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
 
 }
+
 .ContactUs {
-  background-color: #313357;
+  text-align: center;
+  color: white;
+  background-color: #3f3f3f;
   background-image: url(../images/contact_bg.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
 }
+
 .Projects {
   color: white;
   text-align: center;
-  background-color: rgb(44, 53, 78);
+  background-color: rgb(91, 99, 122);
   background-image: url(../images/projects_bg.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
@@ -38,9 +42,4 @@
 .Blogs {
   text-align: center;
   background-color: rgb(201, 160, 28);
-}
-
-.ContactUs {
-  text-align: center;
-  background-color: #B47553;
 }
