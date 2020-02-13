@@ -5,7 +5,7 @@ new fullpage('#fullpage', {
   scrollHorizontally: true,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['Home', 'AboutUs', 'Projects', 'ContactUs'],
+  anchors: ['Home', 'AboutUs', 'Projects', 'contactUs'],
   navigationTooltips: ['Wolf Studios', 'About Us', 'Projects', 'Contact Us'],
   // afterRender: () => {
   //   setInterval(function () {
@@ -19,8 +19,8 @@ $(document).on('click', '#ReadMore', () => {
   fullpage_api.moveTo('AboutUs');
 });
 
-$(document).on('click', '#ContactBTN', () => {
-  fullpage_api.moveTo('ContactUs');
+$(document).on('click', '#contactButton', () => {
+  fullpage_api.moveTo('contactUs');
 })
 
 // DrawMe
