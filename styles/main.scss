@@ -42,6 +42,14 @@ h4 {
   margin-top: 50px;
 }
 
+a {
+  color: #0ceb0c;
+
+    &:hover {
+      color: #10a110;
+    }
+}
+
 .LowerText {
   display: block;
   margin-top: 15px;
@@ -65,25 +73,22 @@ h4 {
   -webkit-transition: background-color 1000ms, color 1000ms, font-size 1000ms;
   transition: background-color 1000ms, color 1000ms, font-size 1000ms;
   text-decoration: none;
+
+    &:hover {
+      background-color: white!important;
+      border: 4px solid white;
+      color: #020c1c;
+      cursor: pointer;
+      -webkit-transition: background-color 500ms, color 500ms, font-size 500ms;
+      transition: background-color 500ms, color 500ms, font-size 500ms, border 500ms;
+      text-decoration: none;
+    }
 }
 
-// #hireUs {
-//   margin-top: 25px;
-//   color: rgb(51,39,42);
-//   background:rgba(51,39,42,0.1);
-//   border: 4px solid rgb(51,39,42);
-//   -webkit-transition: background-color 1000ms, color 1000ms, border 1000ms;
-//   transition: background-color 1000ms, color 1000ms, border 1000ms;
-// }
-
-.bigButton:hover {
-  background-color: white;
-  border: 4px solid white;
-  color: #020c1c;
-  cursor: pointer;
-  -webkit-transition: background-color 500ms, color 500ms, font-size 500ms;
-  transition: background-color 500ms, color 500ms, font-size 500ms, border 500ms;
-  text-decoration: none;
+#hireUs {
+  animation: hireUsPulse 10s infinite;
+  background-color: rgba(255,255,255,0.7);
+  font-size: larger;
 }
 
 .section {
@@ -145,6 +150,20 @@ h4 {
   background: #65696d;
 }
 
+/* Colour pulse animation*/
+@keyframes hireUsPulse {
+  0% {color:#c25d0a}
+  25% {color:#05a10d}
+  50% {color:#1ebce4}
+  75% {color:#284e9e}
+  100% {color:#c25d0a}
+  0% {border:4px solid #c25d0a}
+  25% {border:4px solid #05a10d}
+  50% {border:4px solid #1ebce4}
+  75% {border:4px solid #284e9e}
+  100% {border:4px solid #c25d0a}
+}
+
 .discord {
   display: flex;
   flex-direction: row;
@@ -155,3 +174,4 @@ h4 {
   margin-left: -87%;
   text-align: center;
 }
+
