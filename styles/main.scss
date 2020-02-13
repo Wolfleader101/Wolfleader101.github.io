@@ -51,7 +51,7 @@ h4 {
   font-family: sans-serif;
 }
 
-.bigbutton {
+.bigButton {
   margin: 50px auto;
   display: block;
   width: 180px;
@@ -76,7 +76,7 @@ h4 {
   transition: background-color 1000ms, color 1000ms, border 1000ms;
 }
 
-.bigbutton:hover, #HireUS:hover {
+.bigButton:hover, #HireUS:hover {
   background-color: white;
   border: 4px solid white;
   color: #020c1c;
