@@ -11,9 +11,6 @@
   background-color: #313357;
   background-size: cover;
   background-blend-mode: soft-light;
-}
-
-.AboutUs.active {
   background-image: url(../images/coding_bg.jpg);
 }
 
@@ -23,9 +20,6 @@
   background-color: #3f3f3f;
   background-size: cover;
   background-blend-mode: soft-light;
-}
-
-.contactUs.active {
   background-image: url(../images/contact_bg.jpg);
 }
 
@@ -35,9 +29,6 @@
   background-color: #5b637a;
   background-size: cover;
   background-blend-mode: soft-light;
-}
-
-.Projects.active {
   background-image: url(../images/projects_bg.jpg);
 }
 
