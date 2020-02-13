@@ -9,25 +9,36 @@
   text-align: center;
   color: white;
   background-color: #313357;
-  background-image: url(../images/coding_bg.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
 }
 
+.AboutUs.active {
+  background-image: url(../images/coding_bg.jpg);
+}
+
 .contactUs {
-  background-color: #313357;
-  background-image: url(../images/contact_bg.jpg);
+  text-align: center;
+  color: white;
+  background-color: #3f3f3f;
   background-size: cover;
   background-blend-mode: soft-light;
+}
+
+.contactUs.active {
+  background-image: url(../images/contact_bg.jpg);
 }
 
 .Projects {
   color: white;
   text-align: center;
-  background-color: #2c354e;
-  background-image: url(../images/projects_bg.jpg);
+  background-color: #5b637a;
   background-size: cover;
   background-blend-mode: soft-light;
+}
+
+.Projects.active {
+  background-image: url(../images/projects_bg.jpg);
 }
 
 .Products {
@@ -38,10 +49,5 @@
 .Blogs {
   text-align: center;
   background-color: #c9a01c;
-}
-
-.contactUs {
-  text-align: center;
-  background-color: #B47553;
 }
 /*# sourceMappingURL=divs.css.map */
