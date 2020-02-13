@@ -8,28 +8,28 @@
 .AboutUs {
   text-align: center;
   color: white;
-  background-color: #a1a3af;
-  background-image: url(../images/coding_bg.jpg);
+  background-color: #313357;
   background-size: cover;
   background-blend-mode: soft-light;
+  background-image: url(../images/coding_bg.jpg);
 }
 
-.ContactUs {
+.contactUs {
   text-align: center;
   color: white;
   background-color: #3f3f3f;
-  background-image: url(../images/contact_bg.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
+  background-image: url(../images/contact_bg.jpg);
 }
 
 .Projects {
   color: white;
   text-align: center;
   background-color: #5b637a;
-  background-image: url(../images/projects_bg.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
+  background-image: url(../images/projects_bg.jpg);
 }
 
 .Products {
