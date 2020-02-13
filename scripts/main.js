@@ -5,6 +5,7 @@ new fullpage('#fullpage', {
   scrollHorizontally: true,
   slidesNavigation: true,
   controlArrows: false,
+  lazyLoading: true,
   anchors: ['Home', 'AboutUs', 'Projects', 'contactUs'],
   navigationTooltips: ['Wolf Studios', 'About Us', 'Projects', 'Contact Us'],
   // afterRender: () => {
