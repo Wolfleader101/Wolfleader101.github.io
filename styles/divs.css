@@ -8,13 +8,13 @@
 .AboutUs {
   text-align: center;
   color: white;
-  background-color: #a1a3af;
+  background-color: #313357;
   background-image: url(../images/coding_bg.jpg);
   background-size: cover;
   background-blend-mode: soft-light;
 }
 
-.ContactUs {
+.contactUs {
   text-align: center;
   color: white;
   background-color: #3f3f3f;
