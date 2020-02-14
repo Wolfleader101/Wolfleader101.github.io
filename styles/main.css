@@ -92,15 +92,19 @@ a:hover {
           animation: contactButtonPulse 10s infinite;
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
-  -webkit-box-shadow: 5px 5px white;
-          box-shadow: 5px 5px white;
+  -webkit-box-shadow: 6px 6px rgba(255, 255, 255, 0.8);
+          box-shadow: 6px 6px rgba(255, 255, 255, 0.8);
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
 }
 
 #hireUs:hover {
   -webkit-animation: hireUsPulse 10s infinite !important;
           animation: hireUsPulse 10s infinite !important;
-  -webkit-box-shadow: 3px 3px white;
-          box-shadow: 3px 3px white;
+  -webkit-box-shadow: 3px 3px rgba(255, 255, 255, 0.7);
+          box-shadow: 3px 3px rgba(255, 255, 255, 0.7);
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
 }
 
 #contactButton {
