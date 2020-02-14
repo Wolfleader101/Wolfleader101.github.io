@@ -89,11 +89,13 @@ a {
   animation: contactButtonPulse 10s infinite;
   background-color: rgba(255,255,255,0.1);
   color: rgb(255, 255, 255);
-  box-shadow: 5px 5px rgb(255, 255, 255);
+  box-shadow: 6px 6px rgba(255, 255, 255, 0.8);
+  transition: ease-in-out 0.1s;
 
     &:hover {
       animation: hireUsPulse 10s infinite!important;
-      box-shadow: 3px 3px rgb(255, 255, 255);
+      box-shadow: 3px 3px rgba(255, 255, 255, 0.7);
+      transition: ease-in-out 0.1s;
     }
 
 }
