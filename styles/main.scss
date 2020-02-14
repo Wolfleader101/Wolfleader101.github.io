@@ -42,11 +42,12 @@ h4 {
   margin-top: 50px;
 }
 
-a {
+.email {
   color: #0ceb0c;
 
     &:hover {
-      color: #10a110;
+      transition: ease-in-out 0.5s;
+      color: #00eeff;
     }
 }
 
@@ -89,12 +90,12 @@ a {
   animation: contactButtonPulse 10s infinite;
   background-color: rgba(255,255,255,0.1);
   color: rgb(255, 255, 255);
-  box-shadow: 6px 6px rgba(255, 255, 255, 0.8);
+  box-shadow: 3px 4px rgba(255, 255, 255, 0.8);
   transition: ease-in-out 0.1s;
 
     &:hover {
       animation: hireUsPulse 10s infinite!important;
-      box-shadow: 3px 3px rgba(255, 255, 255, 0.7);
+      box-shadow: 0px 0px rgba(255, 255, 255, 0.7);
       transition: ease-in-out 0.1s;
     }
 
