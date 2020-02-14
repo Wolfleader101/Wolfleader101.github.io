@@ -109,18 +109,6 @@ h4 {
   transition: ease-in-out 0.1s;
 }
 
-#contactButton {
-  -webkit-animation: contactButtonPulse 10s infinite;
-          animation: contactButtonPulse 10s infinite;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: white;
-}
-
-#contactButton:hover {
-  -webkit-animation: hireUsPulse 10s infinite !important;
-          animation: hireUsPulse 10s infinite !important;
-}
-
 .section {
   position: relative;
   width: 100%;
