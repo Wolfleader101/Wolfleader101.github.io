@@ -6,73 +6,28 @@
   color: white;
 }
 
-.Projects .DrawMe {
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-  position: relative;
-  left: 25%;
-  bottom: 10%;
-  width: 50%;
-  overflow: hidden;
-}
-
-.Projects .DrawMe img {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
-  border-radius: 5px;
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.Projects .DrawMe img .overlay {
-  border-radius: 5px;
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
-}
-
-.Projects .DrawMe .overlay {
-  text-align: center;
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  bottom: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  opacity: 0;
-}
-
-.Projects .DrawMe .overlay h2 {
-  padding-top: 5%;
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 4em;
-}
-
-.Projects .DrawMe .overlay p {
-  font-family: 'Roboto';
+.Projects p {
   font-size: 1.5em;
-  letter-spacing: .1em;
-  margin-top: 15%;
+  font-family: 'Roboto';
 }
 
-.Projects .DrawMe:hover {
-  cursor: pointer;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+.Projects p a {
+  color: #e2c000;
+  text-decoration: none;
+  -webkit-transition: 1.5s color, 1s all;
+  transition: 1.5s color, 1s all;
 }
 
-.Projects .DrawMe:hover .overlay {
-  opacity: 1;
+.Projects p a:hover {
+  color: #01a2ff;
+  font-size: 2em;
 }
 
-.Projects .DrawMe:hover img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
+.Projects .my-row {
+  border: 3px solid red;
+}
+
+.Projects .project-col {
+  background: #006e25;
 }
 /*# sourceMappingURL=projects.css.map */
